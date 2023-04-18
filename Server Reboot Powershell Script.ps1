@@ -1,5 +1,5 @@
 $computers = Get-Content -Path C:\Users\******.ds\Desktop\TueReboot\******.txt
-$msg = "You computer will reboot in 30 seconds, please save all work and wait for the system to be patched."
+$msg = "Your computer will reboot in 30 seconds, please save all work and wait for the system to be patched."
 
  
 
