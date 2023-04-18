@@ -31,9 +31,9 @@ foreach ($computer in $pinglist) {
  
 #Output for our list classifying if the server is online or offline after the reboot and ping test
    if ($pingResult) {
-       $pingResults.Add("$computer: Online `n") | Out-Null
+       $pingResults.Add("$computer is Online`n") | Out-Null
    } else {
-       $pingResults.Add("$computer: Offline `n") | Out-Null
+       $pingResults.Add("$computer is Offline`n") | Out-Null
    }
 }
 #output will give each server ping status 
